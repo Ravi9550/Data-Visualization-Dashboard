@@ -37,7 +37,9 @@ A data visualization dashboard built to analyze and visualize insights from JSON
 - Axios (API communication)
 - React Select (Filter components)
 
-## Installation
+**Screeshots**
+![Screenshot 2025-03-01 234025](https://github.com/user-attachments/assets/f854c5a9-d469-4811-8929-17f22a978574)
+
 
 ### Prerequisites
 - Node.js 16+ and npm 9+
@@ -47,5 +49,5 @@ A data visualization dashboard built to analyze and visualize insights from JSON
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/yourusername/visualization-dashboard.git
+   git clone https://github.com/Ravi9550/Data-Visualization-Dashboard.git
    cd visualization-dashboard
