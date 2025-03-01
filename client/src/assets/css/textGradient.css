@@ -1,0 +1,25 @@
+h1 {
+  background-image: linear-gradient(45deg, #ffb3ba, #c49c6e, #bfbf76, #77b084, #ff7e74, #3b82f6, #c084fc, #db2777) !important;
+  color: transparent !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientAnimation 8s linear infinite;
+  animation-direction: alternate;
+  background-size: 300% 100%;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0;
+  }
+
+  to {
+    background-position: 100%;
+  }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+}

@@ -1,0 +1,142 @@
+body {
+    background-color: #1f3f49 !important;
+    font-family:
+        -apple-system,
+        system-ui,
+        Segoe UI,
+        Noto Sans,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #ffffff !important
+}
+
+.headercontainer {
+    margin-bottom: 100px;
+}
+
+.introSection {
+    color: #ffffff;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.custom-navbar {
+    border-radius: 5px;
+    margin: 0 3em;
+    top: 20px;
+    color: #ffffff;
+    padding: 2px 0px !important;
+    background: rgb(16 30 51 / 87%) !important;
+    border: 1px solid #6b6363a6;
+    position: fixed !important;
+    width: calc(100% - 6em);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 99;
+}
+
+.navBackground {
+    background: #77A1D3;
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    height: 4px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    filter: blur(1px);
+    z-index: 1;
+}
+
+.custom-navbar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .nav-link span {
+    margin-left: 5px;
+}
+
+.chartSectionContainer {
+    border-radius: 10px;
+    border: 1px solid #6b6363a6;
+    background: rgba(255, 255, 255, 0.15) !important;
+    overflow: hidden;
+    width: 100%;
+}
+
+.chartContainer {
+    overflow: auto !important;
+    margin-bottom: 2em;
+
+}
+
+.chartContainer .headingContainers {
+    padding: 2em 0;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tableHeader .MuiTablePagination-root p {
+    margin: 0;
+}
+
+.tableHeader {
+    left: 0;
+    position: relative;
+}
+
+.leaflet-popup-content {
+    overflow: auto;
+    height: 150px;
+}
+
+.chartWraper {
+    padding: 0 5em;
+}
+
+.ChartContainerWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ChartContainerWrapper div:nth-child(1) {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ChartContainerWrapper div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    width: 100%;
+}
+
+.x {
+    color: #595959
+}
+
